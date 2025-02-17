@@ -1,0 +1,44 @@
+* {
+    font-family: 'Verdana';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    background-color: #212228;
+    background-image: linear-gradient(#292a30 .1em, transparent .1em),linear-gradient(90deg, #292a30 .1em, transparent .1em);
+    background-size: 4em 4em;
+    height: 100vh;
+}
+
+.kanban{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.item{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.draggin {
+    opacity: 0.5;
+}
+
